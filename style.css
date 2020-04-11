@@ -1,0 +1,356 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.cus-padding {
+	padding-top: 2px;
+}
+nav {
+	position: relative;
+	width: auto;
+	margin: auto;
+	padding: 15px 0;
+	background-color:#E5E5E5;
+	text-align: right;
+	padding-right: 2%;
+	
+}
+.menu a {
+	color: black;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding: 10px 25px;
+	font-size: 18px;
+	position: relative;
+	line-height: 40px;
+
+	
+	display: inline;
+	font-family: Century Gothic;
+}
+.menu li {
+	display: inline;
+}
+.logo {
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+	width:114px;
+	height:58px;
+}
+.menu a:hover {
+	background-color: darkorange;
+	transform:scale(1.25);
+	color: white;
+
+}
+
+
+.menu li a {
+	text-decoration: none;
+}
+.menu li {
+	list-style-type: none;
+}
+.center-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Century Gothic;
+	font-size: 35px;
+	font-style: obliquel;
+	
+}
+
+.img_mid{
+	opacity: 0.5;
+}
+.middle .mid-button {
+	border-radius: 6px;
+	border: solid;
+	border-color: darkorange;
+	padding: 20px;
+	position:absolute;
+	top: 60%;
+	right: 50%;
+	background-color: transparent;
+	text-align: center;
+	font-size: 28px;
+	transition: all 0.5s;
+	cursor: pointer;
+	transform: translate(50%,40%);
+	
+	
+	 
+
+}
+.middle .mid-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.middle .mid-button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.middle .mid-button:hover span {
+  padding-right: 25px;
+}
+
+.middle .mid-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.reciept{
+	border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline-block;
+	color: darkorange;
+}
+
+.reciept:hover{
+	background: darkorange;
+	color: white;
+}
+
+.crl {
+	clear: both;
+}
+.footer-wrapper {
+	width: 1372px;
+	height: auto;
+	min-height: auto;
+	margin: auto;
+	background-color: grey;
+	background-position: center;
+	background-size: cover;
+	
+	left: 0px;
+	top: 1633px;
+}
+.one {
+	padding: 15px;
+	text-align: left;
+	height: 20px;
+	font-family: Century Gothic;
+	font-style: oblique;
+	color: aliceblue;
+}
+.one, td {
+	height: 30px;
+}
+.one .add {
+	
+	text-align: right;
+	
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+.sele_button {
+	text-align: center;
+}
+
+
+.rec{
+	height: 100px;
+  	width: 1310px;
+	background-color:white;
+	margin: 25px;
+	text-align: center;
+	border: 3px solid orange;
+}
+.block_search{
+	border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+	font-family: Century Gothic;
+	border-color: #ff9800;
+  color: orange;
+	margin-left: 25%;
+	
+	}
+
+
+
+.block_search:hover{
+	 background:darkorange;
+  color: white;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: darkorange;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px darkorange;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.select_item{
+	font-family: Century Gothic;
+}
+
+.select_table{
+	padding-left: 50px;
+}
+
+.select_table .raw{
+	padding: 10px;
+	text-align: left;
+}
+
+.select_area{
+font-family: Century Gothic;
+	font-size: 12pt;
+}
+
+.wed_topic{
+	font-family: Century Gothic;
+	font-size: 40px;
+}
+.details{
+	font-family: Century Gothic;
+}
+
+.card{
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	transition: 0.3s;
+	padding: 30px 30px;
+}
+.card:hover{
+	box-shadow: 0 24px 32px 0 rgba(0,0,0,0.2);
+	transform: scale(1.05);
+	
+}
+.card_name{
+	font-family: Century Gothic;
+	font-size: 18px;
+	
+}
+
+.normal_text{
+	font-family: Century Gothic;
+	
+}
+
+.btn_card{
+	background-color:darkorange;
+	padding:10px 15px;
+	font-family: Century Gothic;
+	display:block;
+	text-align: center;
+	
+	
+}
+
+.res_t{
+	padding-left: 25%;
+}
+
+input{
+	width: 70%;
+	height: 100%;
+}
+
+.content {
+	font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	align-content: space-around;
+}
+
+
+

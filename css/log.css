@@ -1,0 +1,56 @@
+/* CSS Document */
+.log{
+	
+	padding-left: 37%;
+}
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+
+input[type=text], input[type=password] ,input[type=file]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.text
+{
+	  width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box
+}
+
+.lognbt{
+	background-color:darkorange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cancelbtn{
+	 width: auto;
+    padding: 10px 18px;
+    background-color: red;
+	font-family: Arial;
+	color: aliceblue;
+}
+
+.psw{
+	padding-left: 20%;
+}
+
+
+.container {
+    padding: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
